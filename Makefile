@@ -1,5 +1,5 @@
 
-CFLAGS := -g -O2 -W -Wall -m32
+CFLAGS := -g -O2 -W -Wall 
 OBJDIR := ../../bin/
 SRCS := $(shell find . -name '*.c*')
 OBJSTMP := $(filter %.o, ${SRCS:.cpp=.o})
